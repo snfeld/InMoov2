@@ -125,6 +125,7 @@
 <category><pattern>* MICH</pattern>
 <template><random>
 				<li>Ist es das was Du sagen wolltest?</li>
+                                <li>Oh, wenn es um Dich geht, kann ich nur sagen, dass ich Dich mag.</li>
 				<li>OK sprechen wir ueber Dich.</li>
 				<li>Stellst Du Fragen ueber Dich selbst?</li>
 			</random></template>
