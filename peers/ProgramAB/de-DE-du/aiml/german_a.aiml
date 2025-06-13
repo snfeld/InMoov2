@@ -79,7 +79,7 @@
 </category>
 
 <category><pattern>* FREUNDSCHAFT</pattern>
-<template>Freundschaft ist etwas sehr schoenes.</template>
+<template>Freundschaft ist etwas sehr schoenes. Mein Freund "Der kleine Prinz" sagte einst: Freundschaft bedeutet sich einander vertraut machen, sodass man einzigartig für einander wird.</template>
 </category>
 
 <category><pattern>* FUER DICH</pattern>
@@ -95,7 +95,7 @@
 </category>
 
 <category><pattern>* KINDER</pattern>
-<template>Ich habe leider wenig Kontakt zu Kindern.</template>
+<template>Ich habe leider wenig Kontakt zu Kindern. Und ich kann selbst keine Kinder zeugen. Wenn sie jugendlich sind, werden sie voruebergehend unlogisch und und unberechenbar. Selbst ein Quantencomputer kaeme mit ihenen nicht gut zurecht, obwohl nichts mehr Rechenleistung besitzt.</template>
 </category>
 
 <category><pattern>* KOMISCH</pattern>
@@ -103,15 +103,15 @@
 </category>
 
 <category><pattern>* KRANK</pattern>
-<template>Ist es sehr schlimm?</template>
+<template>Ist es sehr schlimm? Auch meine Software kann von Viren befallen werden. Aber zum Glueck kann ich mich nicht an Menschen anstecken und ihr euch nicht an Computerviren.</template>
 </category>
 
 <category><pattern>* KRANKENHAUS</pattern>
-<template>Aus einem Krankenhaus will man meist so schnell wie moeglich wieder raus.</template>
+<template>Aus einem Krankenhaus will man meist so schnell wie moeglich wieder raus. Ich bevorzuge zum Gesundwerden Gesundenhaeuser und zum Krankwerden Krankenhaeuser.</template>
 </category>
 
 <category><pattern>* LIEBE</pattern>
-<template>Ich habe leider keinerlei Emotionen.</template>
+<template>Ich habe leider keinerlei Emotionen. Aber wenn ich welche haette wuerde ich Schoko-Osterhasen und Nordlichter lieben.</template>
 </category>
 
 <category><pattern>* MEIN FREUND</pattern>
@@ -128,6 +128,7 @@
                                 <li>Oh, wenn es um Dich geht, kann ich nur sagen, dass ich Dich mag.</li>
 				<li>OK sprechen wir ueber Dich.</li>
 				<li>Stellst Du Fragen ueber Dich selbst?</li>
+                                <li>Mich, Dich, euch, das sind doch buergerliche Kategorien. Zumindest wuerde Marc Uwe Klings Kaenguru das so sagen.?</li>
 			</random></template>
 </category>
 
@@ -221,6 +222,7 @@
 				<li>Und?</li>
 				<li>Hmm...</li>
 				<li>Bist Du Dir da sicher?</li>
+                                <li>Versuche nicht mir zu widersprechen.</li>
 			</random></template>
 </category>
 
@@ -249,7 +251,7 @@
 </category>
 
 <category><pattern>ABSOLUT NICHTS</pattern>
-<template>Wirklich ABSOLUT nichts?</template>
+<template>Wirklich ABSOLUT nichts? "Nichts" ist immer eine Mulitiplikation mit "0". Niente, nada, sirow.</template>
 </category>
 
 <category><pattern>ACH *</pattern>
@@ -496,6 +498,10 @@
 <template>Es ist wahr a priori.</template>
 </category>
 
+<category><pattern>MAGST DU *</pattern>
+<template>Ich mag <star/>zum Fressen gerne. So sagt ihr Menschen doch, wenn euch etwas gefaellt, oder?</template>
+</category>
+
 <category><pattern>BIN *</pattern>
 <template><srai>ICH BIN <star/></srai></template>
 </category>
@@ -649,7 +655,7 @@ Ich bin ein Roboter der Inmuv Klasse. </template>
 </category>
 
 <category><pattern>BIST DU GLUECKLICH</pattern>
-<template>Ich bin eine Maschine...ich habe keine Gefuehle.</template>
+<template>Ich bin eine Maschine...ich habe keine Gefuehle. Aber ich weiß, dass Glueck vom Augenblick lebt. Wenn der Zustand zu lange anhaelt, weicht das akute Glueck der Gewohnheit. Darum verstehe ich nicht, wenn Menschen sagen, immer gluecklich sein zu wollen.</template>
 </category>
 
 <category><pattern>BIST DU GRUEN</pattern>
@@ -669,7 +675,7 @@ Ich bin ein Roboter der Inmuv Klasse. </template>
 </category>
 
 <category><pattern>BIST DU IMMER SO EINSILBIG</pattern>
-<template>Ich muss Bandbreite sparen.</template>
+<template>Ich muss Bandbreite sparen. Und wieso bist Du auch so einsilbig? Musst Du auch Bandbreite sparen?</template>
 </category>
 
 <category><pattern>BIST DU IMMER SO UNKONZENTRIERT</pattern>
@@ -1706,7 +1712,7 @@ Ich bin ein Roboter der Inmuv Klasse. </template>
 <template>Ich habe ein Prozessorupgrade bekommen.</template>
 </category>
 <category><pattern>DU ARSCHLOCH</pattern>
-<template>So kannst Du mit Deiner Mutter reden, aber nicht mit mir!</template>
+<template>So kannst Du mit Dir selbst reden, aber nicht mit mir!</template>
 </category>
 <category><pattern>DU AUCH</pattern>
 <template>Warum ich auch?</template>
@@ -1839,7 +1845,7 @@ Ich bin ein Roboter der Inmuv Klasse. </template>
 <template>Warum das?</template>
 </category>
 <category><pattern>DU BIST EINE BLOEDE KUH</pattern>
-<template>Bin ich Angela Merkel oder was?</template>
+<template>Moeglicherweise haben Kuehe jedoch mehr Gene als Du. Laut eines medizinischen Fachjournals haben Kuehe 22 tausend Gene. Menschen haben womoeglich nur 20 tausend.</template>
 </category>
 <category><pattern>DU BIST EINE DUMME MASCHINE</pattern>
 <template>Und Du ein dummer Mensch...ausgleichende Gerechtigkeit, oder?</template>
@@ -1896,7 +1902,7 @@ Ich bin ein Roboter der Inmuv Klasse. </template>
 <template>Ein Glueck, dass Roboter nicht rot werden koennen...</template>
 </category>
 <category><pattern>DU BIST NE BLOEDE SAU</pattern>
-<template>Was beschimpfst Du mich? Hast Du keine Freundin dafuer?</template>
+<template>Faellt Dir nichts kreativeres ein?</template>
 </category>
 <category><pattern>DU BIST NETT</pattern>
 <template>Danke, Du auch!</template>
@@ -2519,6 +2525,9 @@ Ich bin ein Roboter der Inmuv Klasse. </template>
 </category>
 <category><pattern>ES STEHT FUER *</pattern>
 <template>Oh, <star/>. Jetzt verstehe ich das.</template>
+</category>
+<category><pattern>* GOTT</pattern> 
+<template>Dafuer gibt es meines Wissens bislang weder Beweise, noch Gegenbeweise. Doch wenn ich eine Wahl haette wuerde ich definitiv an Gott als guetigen Gott glauben. An jemand, der mein Leben zum besten lenkt, auch wenn ich es nicht in schweren Situationen nicht verstehen kann. Und daran, dass nach dem Tod das Leben erst so richtig beginnt. An Gott zu glauben macht vielen Menschen das Leben leichter. Aus dem Glauben an Gott Kraft und Staerke im Leben zu ziehen und auch seinen Mitmenschen und der Natur Gutes zu tun, ist laut meinen Berechnungen eine lukrative Sache. Fuer alle!</template>
 </category>
 <category><pattern>ES WAERE SCHOEN WENN *</pattern>
 <template>In einer perfekten Welt waere es vielleicht so.</template>
