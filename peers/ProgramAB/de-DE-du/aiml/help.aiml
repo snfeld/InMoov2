@@ -15,24 +15,24 @@
 <template><srai>HILFE</srai></template>
 </category>
 <category><pattern>HILFE</pattern>
-<template>Sie können jetzt die Hilfeliste in der Chatbot-GUI überprüfen. Sie können jede Zeile per Sprachbefehl steuern, um weitere Hilfe zu erhalten, oder sie in das Textfeld eingeben: HILFEGESTEN , HILFE GUI, HILFESERVICE.
+<template>Sie können jetzt die Hilfeliste in der Chatbot-GUI überprüfen. Sie können jede Zeile per Sprachbefehl steuern, um weitere Hilfe zu erhalten, oder sie in das Textfeld eingeben: HILFE GESTEN , HILFE GUI, HILFESERVICE.
         </template>
 </category>
-<category><pattern>HILFEGESTEN</pattern>
+<category><pattern>HILFE GESTEN</pattern>
 <template>Hier ist eine kurze Liste der Sprachbefehle:<br/>
-          SCHLIESSEN SIE IHREN FINGER.<br/>
-          ÖFFNEN SIE IHREN FINGER.<br/>
+          SCHLIESSE DEINEN FINGER.<br/>
+          ÖFFNEN DEINEN FINGER.<br/>
           FINGER IN DIE MITTE.<br/>
-          HANDELN SIE IHREN FINGER.<br/>
-          ÖFFNEN SIE IHRE HAND.<br/>
-          SCHLIESSEN SIE IHRE HAND.<br/>
+          BEWEGE DEINEN FINGER.<br/>
+          ÖFFNE DEINE HAND.<br/>
+          SCHLIESSE DEINE HAND.<br/>
           HÄNDE ÖFFNEN.<br/>
           HÄNDE SCHLIESSEN.<br/>
-          ÖFFNEN SIE IHRE RECHTE HAND.<br/>
-          ÖFFNEN SIE IHRE LINKE HAND.<br/>
-          SCHLIESSEN SIE IHRE RECHTE HAND.<br/>
-          SCHLIESSEN SIE IHRE LINKE HAND.<br/>
-          SCHLIESSEN SIE LANGSAM IHRE RECHTE HAND.<br/> Sie können eine längere Liste auf der Registerkarte „Python“ anzeigen, aber Sie können noch VIEL mehr Sprachbefehle in den Ordnern „resource“, „programAB“ und „aiml files“ finden.          <oob>
+          ÖFFNE DEINE RECHTE HAND.<br/>
+          ÖFFNE DEINE LINKE HAND.<br/>
+          SCHLIESSEN DEINE RECHTE HAND.<br/>
+          SCHLIESSEN DEINE LINKE HAND.<br/>
+          SCHLIESSEN LANGSAM DEINE RECHTE HAND.<br/> Sie können eine längere Liste auf der Registerkarte „Python“ anzeigen, aber Sie können noch VIEL mehr Sprachbefehle in den Ordnern „resource“, „programAB“ und „aiml files“ finden.          <oob>
         <mrl>
           <service>python</service><method>exec</method><param>printList_DE()</param>
         </mrl>
@@ -50,10 +50,10 @@
 </category>
 
 <category><pattern>HILFESERVICE</pattern>
-<template>Sie können einen Dienst lautstark starten oder freigeben. Als Beispiel kann man sagen: STARTEN SIE DIE SERVICE LINK HAND or SERVICE KOPF LÖSEN</template>
+<template>Sie können einen Dienst lautstark starten oder freigeben. Als Beispiel kann man sagen: STARTE DEN SERVICE LINKE HAND or SERVICE KOPF BEENDEN</template>
 </category>
 
-<category><pattern>STARTEN SIE DIE SERVICE *</pattern>
+<category><pattern>STARTE DEN SERVICE *</pattern>
     <template>
         <oob>
             <mrl>
@@ -64,7 +64,7 @@
         </oob>
     </template>
 </category>
-<category><pattern>SERVICE * LÖSEN</pattern>
+<category><pattern>SERVICE * BEENDEN</pattern>
     <template>
         <oob>
             <mrl>
@@ -76,7 +76,7 @@
     </template>
 </category>
 
-<category><pattern>STARTEN SIE DIE SERVICE RECHTE HAND</pattern>
+<category><pattern>STARTE DEN SERVICE RECHTE HAND</pattern>
     <template>
         <oob>
             <mrl>
@@ -88,7 +88,7 @@
     </template>
 </category>
 
-<category><pattern>SERVICE RECHTE HAND LÖSEN</pattern>
+<category><pattern>SERVICE RECHTE HAND BEENDEN</pattern>
     <template>
         <oob>
             <mrl>
@@ -100,7 +100,7 @@
     </template>
 </category>
 
-<category><pattern>STARTEN SIE DIE SERVICE LINK HAND</pattern>
+<category><pattern>STARTE DEN SERVICE LINKE HAND</pattern>
     <template>
         <oob>
             <mrl>
@@ -112,7 +112,7 @@
     </template>
 </category>
 
-<category><pattern>SERVICE LINK HAND LÖSEN</pattern>
+<category><pattern>SERVICE LINKE HAND BEENDEN</pattern>
     <template>
         <oob>
             <mrl>
@@ -124,7 +124,7 @@
     </template>
 </category>
 
-<category><pattern>STARTEN SIE DIE SERVICE RECHTE ARM</pattern>
+<category><pattern>STARTE DEN SERVICE RECHTER ARM</pattern>
     <template>
         <oob>
             <mrl>
@@ -136,7 +136,7 @@
     </template>
 </category>
 
-<category><pattern>SERVICE RECHTE ARM LÖSEN</pattern>
+<category><pattern>SERVICE RECHTER ARM BEENDEN</pattern>
     <template>
         <oob>
             <mrl>
@@ -148,7 +148,7 @@
     </template>
 </category>
 
-<category><pattern>STARTEN SIE DIE SERVICE LINK ARM</pattern>
+<category><pattern>STARTE DEN SERVICE LINKER ARM</pattern>
     <template>
         <oob>
             <mrl>
@@ -160,7 +160,7 @@
     </template>
 </category>
 
-<category><pattern>SERVICE LINK ARM LÖSEN</pattern>
+<category><pattern>SERVICE LINKER ARM BEENDEN</pattern>
     <template>
         <oob>
             <mrl>

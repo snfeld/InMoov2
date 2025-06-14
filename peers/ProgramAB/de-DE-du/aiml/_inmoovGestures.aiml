@@ -111,7 +111,7 @@
         <oob><mrl><service>i01</service><method>cameraOff</method></mrl></oob></template>
 </category>
 <category><pattern>KAMERA AUSSCHALTEN</pattern>
-<template><srai>AUS KAMERA</srai></template>
+<template><srai>KAMERA AUS</srai></template>
 </category>
 <category><pattern>ERFASSE DIESE GESTE</pattern>
 <template>Ich fange diese Geste ein.
@@ -231,14 +231,14 @@
 <template><oob><mrl><service>python</service><method>exec</method><param>isitaball()</param></mrl></oob></template>
 </category>
 <category><pattern>LEG ES RUNTER</pattern>
-<template>Legen Sie es runter.
+<template>Lege es runter.
         <oob><mrl><service>python</service><method>exec</method><param>putitdown()</param></mrl></oob></template>
 </category>
 <category><pattern>LASS ES FALLEN</pattern>
 <template>Ablegen
         <oob><mrl><service>python</service><method>exec</method><param>dropit()</param></mrl></oob></template>
 </category>
-<category><pattern>ENTFERNE DEN LINKSEN ARM</pattern>
+<category><pattern>ENTFERNE DEN LINKEN ARM</pattern>
 <template>Ich entferne meinen linken Arm.
         <oob><mrl><service>python</service><method>exec</method><param>removeleftarm()</param></mrl></oob></template>
 </category>
