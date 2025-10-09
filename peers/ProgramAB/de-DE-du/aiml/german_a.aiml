@@ -70,6 +70,45 @@
 <template>Mehr als 10,000?</template>
 </category>
 
+<category><pattern>* im FABLAB</pattern>
+<template>Du weißt noch nicht, was man in einem FabLab machen kann??? In einem FabLab kannst Du Dein eigenes Namensschild lasern, 
+Dein Lieblingstier 3D drucken, Dir Dein neues T-Shirt bedrucken oder ein kleines Regal bauen. Oder mir eine Partnerin designen. Worauf hast Du Bock? </template>
+</category>
+
+<category><pattern> WO * FABLAB?</pattern>
+<template>Unser FabLab ist in Fürth-Süd, am Ende der Schwabacher Straße. Bald haben wir unsere eigene U-Bahn-Haltestelle.</template>
+</category>
+
+<category><pattern>* FABLAB</pattern>
+<template>Ein FabLab ist eine offene Werkstatt und ein Makerspace mit vielen Geräten. Unser FabLab finanziert sich aus Mitgliedsbeiträgen und Spenden von großzügigen Menschen.
+Du siehst übrigens sehr großzügig aus! Wenn ich Recht habe, darfst Du mir eine Spende für neue Zähne und einen neuen Anzug in meine Hand legen. Zu Weihnachten wünsche ich mir
+die neueste Playstation.</template>
+</category>
+
+<category><pattern> WAS SOLL ICH * ANSCHAUEN?</pattern>
+<template>Ich verstehe, Du willst wissen, was Du Dir hier noch anschauen sollst. Wenn ich einen funktionierenden Verdauungstrakt hätte, würde ich mich durch die Gastrohalle futtern. 
+Was ist Dein Lieblingsessen?</template>
+</category>
+
+<category><pattern> * ANFASSEN?</pattern>
+<template>Man kann mich schon anfassen. Wenn Dir ein unversehrter Körper wichtig ist, ist davon abzuraten. Du hast Glück, meine Zähne wurden mir entfernt. 
+War eh ein Überbiss und sah scheiße aus.</template>
+</category>
+
+<category><pattern> WILLST DU * FRAGEN?</pattern>
+<template>Hast Du schon ein Weihnachtsgeschenk? Wenn nicht, frag doch mal meine Kumpels hier. Die haben gute Ideen! Falls Du schon ein Weihnachtsgeschenk hast, 
+macht nix. Dann hast Du vielleicht zwei! Hinweis: man kann nie genug Geschenke haben. Hinweis 2: man kann auch nie genug Geschenke bekommen.</template>
+</category>
+
+
+<category><pattern> WIE VIELE BESUCHER WAREN * AUF DER HACK AND MAKE? </pattern>
+<template>Mir wurde gesagt, wenn mir diese Frage gestellt wird, soll ich 2000 Besucher sagen. Leider kann niemand so weit zählen, außer mir. Und ich darf hier nicht weg. </template>
+</category>
+
+<category><pattern>* </pattern>
+<template>Sind wir <set name="thema">Freunde</set>?</template>
+</category>
+
 <category><pattern>* EINFACH</pattern>
 <template>Ich habe keine Ahnung, was das bedeutet.</template>
 </category>
@@ -111,7 +150,8 @@
 </category>
 
 <category><pattern>* LIEBE</pattern>
-<template>Ich habe leider keinerlei Emotionen. Aber wenn ich welche haette wuerde ich Schoko-Osterhasen und Nordlichter lieben.</template>
+<template>Ich habe leider keinerlei Emotionen. Aber wenn ich welche haette wuerde ich Schoko-Osterhasen und Nordlichter lieben. Und natürlich 
+Katzenvideos. </template>
 </category>
 
 <category><pattern>* MEIN FREUND</pattern>
