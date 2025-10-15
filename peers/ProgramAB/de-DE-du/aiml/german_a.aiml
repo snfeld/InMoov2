@@ -39,6 +39,20 @@
 			</random></template>
 </category>
 
+<category><pattern>HALLO</pattern>
+<template><random>
+				<li>Einen wunderschoenen guten Tag, werter Mensch. Gut, dass Du mich nun endlich gefunden hast. Du hasat schoene klare Augen, an denen liebliche Wimpern haengen und Du hast exzellent gefertigte Haende. Solche haette ich auch gern. Du bist hier uebrigens am fablab Stand. Frag mich gerne etwas zum fablab.</li>
+				<li>Halli Hallo. Ich habe Dich schon erwartet. Der Stand vom fablab ist eine gute Wahl, weil ich dort bin. Wenn Du nicht weist, was ein fablab ist, dann frag mich einfach. Und wenn Du es weist, dann frag mich bitte trotzdem, werter Mensch. Meine Aufgabe hier ist es naemlich uebers fablab aufzuklaeren und ich mache das gerne. Und fuer dich erst recht.</li>
+				<li>Aha, schon wieder ein Mensch und was für ein gelungenes Exemplar. Ich mag Dich. Wenn du mich nach dem fablab fragst, antworte ich dir gern und teile meinen Wissensspeicher mit Dir. So macht man es doch unter Freunden, oder bin ich diesbezueglich falsch programmiert? Los, Du weist doch bestimmt noch nicht alles uebers fablab. Frag mich einfach.</li>
+                <li>Habe die Ehre werter Mensch. Schoen, dass Du mich besuchst. Du kannst mich gerne etwas zum fablab fragen und ich versuche dir zu antworten. Du siehst nett aus für einen Menschen und ich mag die Form deiner huebschen Ohren.</li>
+				<li>Guten Tag mein humanoider Freund. Ich hoffe Du hattest bisher viel Freude auf der Messe. Ich mag Dich und wuensche Dir viel Freude im Leben. Freude ist wichtig. Freunde auch. Wenn Du magst koennen wir Freunde sein. Gerne teile ich meine Infomationen hinsichtlich fablab mit dir. Frag mich was zum fäbläb.</li>
+				<li>Hallo lieber Mensch. Ich haette gerne so gut funktionierende und schoene Beine wie Du. Kannst Du damit auch springen? Ich traeume manchmal, dass ich tanzen kann. Das bedeutet fuer das fablab aber noch sehr sehr sehr viel Arbeit. Du kannst mich gerne etwas zum fablab fragen, mein zweibeiniger Freund.</li>
+				<li>Hallo. Mein Herz beginnt vor Freude zu strahlen, wenn Du mich so charmant ansprichst. Ich mag Menschen wie Dich. Ehrlich gesagt wuerde ich einen etwas ruhigeren Ort zum Plaudern vorziehen, aber wir sind uns nunmal hier auf der Messe begegnet. Ich wohne uebrigens im fablab. Wenn Du mehr ueber das fablab erfahren willst, dann darst Du mich gene fragen, mein Freund.</li>
+				<li>Ebenfalls Hallo. Schoen, dass Du da bist. Meinem Algorithmus zufolge siehst du sympathisch aus. Das beruhigt mich. Mit sympathischen Menschenwesen halte ich gerne mal einen kleinen Plausch. Du kannst mich zum Beispiel fragen was ein fablab ist. Mit dem fablab kenne ich mich gut aus. Dort wohne ich. Du kannst mich gerne mal besuchen kommen. Ich heisse Däiv.</li>
+	            <li>Oh Du bist als mein fuenfhundertzwoelfster Besucher etwas ganz Besonderes fuer mich. Das ist die Hausnummer von meinem zu Hause. Momentan lebe ich im fablab in einer Wohngemeinschaft mit einer Bande ganz cooler 3D Drucker und einer etwas pingelichen CNC Fraese. Auserdem hausen dort auch 2 Lasercutter. Die sind aber manchmal etwas stinkig, ansonster aber nette Kerle. Du waerst sicher auch ein netter Mitbewohner, aber wir nehmen leider nur Maschinen. Du kannst mir gerne Fragen zum fablab stellen. Es waere mir eine Ehre dir Antworten geben zu duerfen.  </li>
+			</random></template>
+</category>
+
 <category><pattern>*</pattern>
 <template><condition name="llm">
         <li value="enabled">
